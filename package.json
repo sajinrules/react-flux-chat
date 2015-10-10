@@ -1,0 +1,21 @@
+{
+  "name": "react-flux-chat",
+  "version": "0.0.0",
+  "description": "react flux nodejs socket.io chat application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sajinrules@gmail.com",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "vinyl-source-stream": "~1.1.0",
+    "react-dom": "~0.14.0",
+    "react-router-component": "~0.27.1",
+    "react": "~0.14.0",
+    "reactify": "~1.1.1",
+    "browserify": "~11.2.0",
+    "gulp": "~3.9.0",
+    "gulp-server-livereload": "~1.5.3"
+  }
+}
