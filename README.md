@@ -2,8 +2,7 @@
 Sample chat project using Reactjs Flux Browserify Reactify Gulp Nodejs Socket io
 
 
-Run
-###
+#Run
 
-1 -npm install
-2 -gulp
+1. npm install
+2. gulp
