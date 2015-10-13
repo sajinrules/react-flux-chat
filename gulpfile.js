@@ -21,10 +21,10 @@ gulp.task('copy',function(){
 })
 
 gulp.task('serve', function() {
-  gulp.src('./dist')
+  gulp.src('./')
     .pipe(server({
       livereload: true,
-      defaultFile: 'index.html',
+      defaultFile: './dist/index.html',
       open:{
       	browser: 'chrome'
       }
