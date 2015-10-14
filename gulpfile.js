@@ -30,7 +30,10 @@ gulp.task('serve', function() {
       }
     }));
 });
-
-gulp.task('default',['browserify','copy','serve'],function(){
+gulp.task('watch', function() {
+  	gulp.watch('src/**/*.*', ['browserify','copy']);
+  	//gulp.watch(paths.images, ['images']);
+});
+gulp.task('default',['browserify','copy','serve','watch'],function(){
 	//return gulp.watch('src/**/*.*',['browserify','copy','serve']);
 })
